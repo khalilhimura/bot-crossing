@@ -8,8 +8,9 @@
  */
 import claudeCode from './claude-code.mjs'
 import deepseekHarness from './deepseek-harness.mjs'
+import codexCli from './codex-cli.mjs'
 
-export const HARNESSES = [claudeCode, deepseekHarness]
+export const HARNESSES = [claudeCode, deepseekHarness, codexCli]
 
 export const harnessById = (id) => HARNESSES.find((h) => h.id === id) || null
 
