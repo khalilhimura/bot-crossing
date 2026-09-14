@@ -1,4 +1,62 @@
-# Bot Crossing — your agent threads, as a colony
+# Bot Crossing — toward a 3D context graph
+
+This fork will reuse Bot Crossing's interactive 3D visualization for exploring a
+**context graph**. That is the direction for future development. The application
+currently still displays coding-agent sessions as a colony; the context graph is
+planned, not implemented.
+
+## Project origin and baseline
+
+- **This fork:** [khalilhimura/bot-crossing](https://github.com/khalilhimura/bot-crossing).
+- **Original project:** Bot Crossing by Jarren Rocks. GitHub identifies
+  [Station-Sciences/bot-crossing](https://github.com/Station-Sciences/bot-crossing)
+  as the fork's parent; the historical repository URL was `jarrenrocks/bot-crossing`.
+- **Original purpose:** visualize sessions from coding-agent harnesses as astronauts
+  building a colony. This checkout also includes DeepSeek Harness and Codex adapter work.
+- **Preserved baseline:** `codex/agent-monitor-baseline`, commit `1a35b84`, captures
+  the current session-monitor code before this documentation pivot, including the
+  previously uncommitted Codex adapter. It is a snapshot of this fork, not a pristine
+  copy of the original upstream release.
+- **Attribution:** retain the original MIT licence, author credit, and asset licences
+  documented below.
+
+As of 2026-09-14, both local remote names, `origin` and `upstream`, point to this
+fork. The name `upstream` therefore does not currently refer to the original project.
+
+## Direction for this fork
+
+Use the 3D scene to make context and relationships explorable. The renderer, camera,
+selection interactions, and stable spatial layout are the starting point for that work.
+Multi-harness session monitoring is the inherited baseline, not the future product focus.
+
+Before implementation, define the graph's entities, relationships, data sources,
+and navigation needs. Then determine how they map to the 3D scene and which colony
+metaphors remain useful. No graph schema, storage backend, or integration has been
+selected yet. See [AGENTS.md](AGENTS.md) for guidance for future changes.
+
+## Running the preserved session monitor
+
+From a clean working tree:
+
+```bash
+git switch codex/agent-monitor-baseline
+npm install
+npm run dev
+```
+
+Return to the context-graph development line with `git switch main`. The baseline
+branch preserves source and tracked assets; local agent data, dependencies, and
+ignored colony state are not included. The snapshot passed `npm run build` and a
+Codex adapter syntax check on 2026-09-14; live integration behavior was not retested.
+The Codex adapter infers activity from file timestamps, opens only the app, and
+does not implement new-session creation or archiving.
+
+## Inherited session-monitor documentation
+
+The remaining sections describe the original colony application and its historical
+design decisions. They are reference material for the current implementation, not
+the context-graph roadmap. First-person author statements below belong to the original
+project, and performance figures are historical measurements.
 
 **[botcrossing.com](https://botcrossing.com)**
 
