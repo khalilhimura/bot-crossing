@@ -2,7 +2,8 @@
 
 Updated 15 September 2026. Records user-approved product direction from the
 planning conversation. This is a decision log, not a complete implementation
-specification. These capabilities are planned, not implemented.
+specification. The Nous interface and provider integrations remain planned. The
+standalone SovMem mock CLI is implemented and merged; see the delivery status below.
 
 ## MVP thinking framework: dialectical inquiry
 
@@ -80,7 +81,9 @@ grouping. It does not delete or retire the underlying record.
 
 The pilot and topic representation are approved design choices. The illustrative
 positions are not established findings or approved canonical claims. No matching
-SovMem artifact or evidence collection has yet been identified for this pilot.
+real SovMem artifact or evidence collection has yet been identified for this pilot.
+The mock now supplies explicitly synthetic claims and supporting, challenging and
+contextual sources in `mock-sovmem/fixtures/bundle/`.
 
 ### Approved evidence attachment model
 
@@ -187,23 +190,43 @@ These are captured future directions, not commitments to implement them now.
 Both approaches would reuse evidence, provenance, and human review. Their detailed
 interaction designs and release timing remain undecided.
 
-## Integration and next design work
+## Delivery status and build direction
 
-Use pinned OKF v0.2 as the document foundation for the mock SovMem CLI intended
-to unblock Nous interface development. See the [mock foundation](nous-mock-cli-foundation.md).
-The mock uses synthetic data and simulated approval; it cannot establish real
-SovMem security or release readiness.
+The SovMem mock CLI is delivered on `main` in commit `c2b8aa96a352617fb9ab535b4579e5f44ef56620`.
+It implements `sovmem-mock/v1` over actual OKF v0.2 Markdown/YAML documents,
+with synthetic evidence, simulated review, exact-revision trace, topics, mission
+persistence and export. The merged tree passed 53 tests (26 mock, 27 existing)
+and `npm run build` on 15 September 2026. This is historical verification evidence;
+recheck the checkout before starting a new build.
 
-Target OKF v0.2 for portable documents and SovMem for governance. The complete
-mission loop depends on verified scoped reading, proposal handling, protected
-approval, durable commitment and recovery. A version label alone is not proof of
-readiness. Computation execution remains deferred.
+**Start Nous interface development against this mock now.** Production SovMem
+v0.4/v0.5 completion is not a prerequisite for the demo build. It remains a
+prerequisite to claim the corresponding real governance/security capabilities.
+Acceptance controls must say **Demo memory · Simulated approval** while the mock
+is active. The mock must never be switched to a private vault.
 
-Next, identify authorized source artifacts for the approved pilot and turn the
-acceptance target into concrete verification cases. Remaining design work includes
-BYOK configuration and precise provider/SovMem adapter and persistence contracts, active-run
-cancellation, and detailed failure handling. The approved interaction decisions
-above still need consolidation into a complete design specification.
+Build milestones:
+
+1. Local browser-to-Node bridge to the mock, with a separate simulated review route.
+2. One topic per 3D object, claim/evidence selection and a complete synthetic mission.
+3. Assessment editing, Accept/Reject/KIV, reconciliation and restart/resume.
+4. Focused provenance graph and evidence/source-change failure cases.
+5. Isolated BYOK/Pi feasibility, then approved providers and live investigation UX.
+6. User-observed demo acceptance; a separately verified real SovMem adapter and
+   protected approval broker are required before a private-data pilot.
+
+Milestones 1–4 use an explicitly labelled scripted assessment to validate the
+interaction. They do not count as a live AI investigation or completion of the
+full BYOK MVP. Keep the approved provider options and future frameworks in scope
+for their respective milestones; do not expand the inherited harness monitor.
+
+Read the [build handover](nous-mvp-build-handover.md) first in the next session,
+then execute the [first bridge implementation plan](superpowers/plans/2026-09-15-nous-mvp-mock-bridge.md).
+The [mock runbook](../mock-sovmem/README.md) and
+[contract inventory](../mock-sovmem/contract.json) define the implemented boundary.
+The [CLI readiness requirements](nous-mvp-sovmem-cli-readiness.md) retain the
+stronger obligations for real SovMem. Provider credential/routing choices and
+active investigation cancellation require explicit design during milestone 5.
 
 ## Framework references
 

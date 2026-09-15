@@ -83,3 +83,5 @@ fixture layout, persistence format and conformance cases.
 Keep it aligned with the [approved Nous flow](nous-mvp-design-decisions.md) and
 the proposed real SovMem methods, so replacement requires an adapter change
 rather than a redesign of the interface.
+
+Next build: [Nous MVP handover](nous-mvp-build-handover.md) and its linked local bridge plan.

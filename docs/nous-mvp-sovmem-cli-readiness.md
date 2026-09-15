@@ -1,6 +1,27 @@
 # Minimum SovMem CLI contract for the Nous MVP
 
-15 September 2026 — investigation and proposed integration contract.
+15 September 2026 — production requirements, with delivered mock status below.
+
+## Delivered development prerequisite
+
+The standalone [mock CLI](../mock-sovmem/README.md) is merged in `main` at
+`c2b8aa9`. Its interface is `sovmem-mock/v1`, based on pinned OKF v0.2;
+it is not the ratified SovMem v0.4 protocol. 26 mock integration tests and 27
+existing application tests passed on the merged source tree on 15 September 2026.
+
+| Capability | Mock delivery | Real integration still required |
+| --- | --- | --- |
+| Read/search/context/trace | Synthetic OKF records, exact revisions, bounded packets and scoped failure scenarios | Real principal/policy enforcement and verified context contracts |
+| Propose/review | Idempotent proposals, hash-bound edits, Accept/Reject/KIV, lost-response reconciliation | Protected owner broker, signed receipts and verified native commitment |
+| Topics/missions | Persistent demo UI state, selected packets, draft/history and dispatch reports | Application persistence boundary and migration; actual provider execution |
+| Document portability | Passive parsing and revision-bound OKF export | Native archive/restore, full recovery and release conformance |
+| Integrity | Mock SHA-256 blob checks and process-level atomic state publication | Native BLAKE3, rollback resistance, durability and independent verification |
+
+This enables the [Nous demo build](nous-mvp-build-handover.md). It is a practical
+mock implementation of milestone A's development intent, **not formal ratification
+of milestone A or completion of milestones B–D**. The production requirements
+below remain applicable when replacing the adapter. Statements about the native
+SovMem checkout below are the earlier source-inspection snapshot, not a new audit.
 
 ## Conclusion and scope
 

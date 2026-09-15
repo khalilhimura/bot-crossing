@@ -36,6 +36,9 @@ human-reviewed claims, contradictory evidence, mission persistence and provenanc
 Run `npm run mock:demo` for the end-to-end pilot. The 3D context graph integration
 and production SovMem backend remain future work.
 
+For a fresh build session, start with the [Nous MVP build handover](docs/nous-mvp-build-handover.md)
+and its first implementation plan.
+
 ## Running the preserved session monitor
 
 From a clean working tree:
