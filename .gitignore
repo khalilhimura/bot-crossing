@@ -18,3 +18,8 @@ assets-src
 
 # Local capture output — not part of the project.
 recordings
+
+# Local imported assets, generated outputs and copied decoder runtime.
+data/assets/
+meshy_output/
+public/decoders/

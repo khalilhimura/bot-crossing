@@ -1,6 +1,6 @@
-# Bot Crossing — toward a 3D context graph
+# Nous Mission Control — toward a 3D context graph
 
-This fork will reuse Bot Crossing's interactive 3D visualization for exploring a
+Nous Mission Control will reuse Bot Crossing's interactive 3D visualization for exploring a
 **context graph**. That is the direction for future development. The application
 currently still displays coding-agent sessions as a colony; the context graph is
 planned, not implemented.
@@ -366,6 +366,50 @@ Eye colours, lamps, windows, crop rows and plot kerbs are all authored above 1.0
 pass picks them out. The threshold is deliberately high (0.92) — only those things clear it,
 so lit surfaces stay crisp instead of going hazy.
 
+## Asset library and GLB import
+
+Open **Assets** in the world toolbar to browse 74 bundled model entries, inspect
+one in an orbitable preview, or import a local GLB. Search and collection/category
+filters apply to the library; **In the world** lists placed instances.
+
+1. Choose **Import GLB**, or drop one file onto the panel. The limit is **50 MiB**.
+   Export a self-contained glTF 2 binary with embedded textures. Draco, Meshopt
+   and KTX2/Basis are supported through local decoders; external/relative resource
+   references and unsupported required extensions produce an import error.
+2. Wait for the preview, inspect materials and animation clips, and edit the
+   name, category, source, creator and licence. **Save import** adds it to the
+   library. Closing an unsaved import cancels it. Identical saved files reuse the
+   existing asset.
+3. **Place in world** shows a movable preview on the ground. Click to confirm or
+   press Escape to cancel. Coordinate fields provide a keyboard alternative.
+4. Click a placed model or choose it from **In the world** to move, rotate, scale,
+   choose an animation, or remove the instance. **Swap model** preserves the
+   instance's transform. Deleting an imported asset asks explicitly about removing
+   any placements using it. Bundled assets retain their credits and are read-only.
+
+Preview controls: drag to orbit, scroll to zoom; focus the preview and use left/
+right arrows to turn, +/− to zoom. Imported files retain their original materials
+and skeletons. Importing does not automatically replace the legacy colony's
+building recipes or astronaut rig.
+
+Files and placements persist under `data/assets/`, or
+`$BOT_CROSSING_DATA/assets/` when configured. They are separate from `colony.json`
+and ignored by Git. Back up this whole assets directory to retain the library.
+The bundled catalog is generated from the shipped GLBs by `npm run assets`; that
+command also copies the Three.js decoder runtime into ignored `public/decoders/`.
+
+For externally generated assets, see [Meshy to Nous Mission Control](docs/meshy-workflow.md).
+The context-graph entity and relationship model remains planned and undecided.
+
+### Asset development checks
+
+`npm test` runs focused validation, storage, catalog, animation, placement and
+camera tests using synthetic data and temporary directories. `npm run build`
+prepares the catalog/decoders and builds the app. For manual browser checks with
+synthetic sessions, run `node tests/serve-browser-fixtures.mjs` after
+`npm run assets`; it prints the URL and disposable data directory. Set `PORT` and
+`BOT_CROSSING_DATA` to reuse a particular QA instance across restarts.
+
 ## Where the art comes from
 
 The colony is built out of two CC0 asset packs by **[Kay Lousberg](https://kaylousberg.com)**,
@@ -382,7 +426,7 @@ packs go in `assets-src/` (see below).
 
 Two things about Space Base Bits make the whole approach work. It is **modular** — a habitat is
 a base module with a roof module on it, a workshop is the garage variant with a rover parked
-outside — which is why ten building recipes fit on one screen. And all forty-four models share
+outside — which is why ten building recipes fit on one screen. And all fifty-seven top-level models share
 **one 1024px gradient atlas**, so a nine-part greenhouse still merges to a single geometry and a
 single draw call, exactly as the procedural generators it replaced did.
 
@@ -435,7 +479,7 @@ colour on the same texture.
 
 ### Rebuilding them
 
-`npm run assets` packs the raw packs into the two glbs the app loads. The built files are
+`npm run assets` packs the raw packs into the three glbs the app loads. The built files are
 checked in and the raw packs are not, so this is a no-op unless you have fetched them:
 
 ```bash

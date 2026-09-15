@@ -1,4 +1,5 @@
 import * as THREE from 'three'
+import { bundleURL } from '../assets/bundles.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import * as BufferGeometryUtils from 'three/addons/utils/BufferGeometryUtils.js'
 
@@ -48,9 +49,9 @@ export const CELL = {
 // nothing to gain from hashing a file the loader fetches by hand anyway.
 const KITS = {
   /** Space Base Bits: every building, and the colony's hard surfaces. */
-  base: { file: 'spacebase.glb', parts: new Map(), solo: new Map(), atlas: null },
+  base: { key: 'base', parts: new Map(), solo: new Map(), atlas: null },
   /** Forest Nature Pack: trees, bushes, grass, and the boulders on every world. */
-  forest: { file: 'forest.glb', parts: new Map(), solo: new Map(), atlas: null },
+  forest: { key: 'forest', parts: new Map(), solo: new Map(), atlas: null },
 }
 
 let loading = null
@@ -64,7 +65,7 @@ export function loadKit() {
     const loader = new GLTFLoader()
     loading = Promise.all(
       Object.values(KITS).map((kit) =>
-        loader.loadAsync(`${import.meta.env.BASE_URL}assets/${kit.file}`).then((gltf) => {
+        loader.loadAsync(bundleURL(kit.key)).then((gltf) => {
           gltf.scene.updateMatrixWorld(true)
           for (const node of gltf.scene.children) harvest(node, kit)
           kit.atlas = findAtlas(gltf.scene)

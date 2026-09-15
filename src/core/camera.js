@@ -120,6 +120,18 @@ export class CameraRig {
 
   // ── input ───────────────────────────────────────────────────────────────────────────
 
+  /** End a gesture whose pointerup was consumed by a modal or another interaction. */
+  cancelInteraction() {
+    this._pointers.clear()
+    this._mode = null
+    this.interacting = false
+    this.suppressed = false
+    this._hasAnchor = false
+    this._zoom = null
+    this._pinch = 0
+    this._moved = 0
+  }
+
   _pointerDown(e) {
     if (!this.enabled) return
     this._pointers.set(e.pointerId, { x: e.clientX, y: e.clientY })

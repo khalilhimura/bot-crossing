@@ -34,7 +34,7 @@ const app = document.getElementById('app')
 app.insertAdjacentHTML(
   'beforeend',
   `<div class="boot"><div class="inner">
-     <h1>Bot Crossing</h1>
+     <h1>Nous Mission Control</h1>
      <p>Scanning for agent threads…</p>
      <div class="bar"><i></i></div>
    </div></div>`
@@ -73,7 +73,7 @@ const actions = {
     const url = engine.canvas.toDataURL('image/png')
     const a = document.createElement('a')
     a.href = url
-    a.download = `bot-crossing-${colony.planet.id}-${stamp()}.png`
+    a.download = `nous-mission-control-${colony.planet.id}-${stamp()}.png`
     a.click()
     hud.toast('Screenshot saved')
   },
@@ -226,6 +226,21 @@ const actions = {
 }
 
 const hud = new Hud(app, settings, actions)
+const assetLaunch = document.createElement('button')
+assetLaunch.className = 'btn icon asset-launch'
+assetLaunch.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 9 5v8l-9 5-9-5V8zM3 8l9 5 9-5M12 13v8"/></svg>'
+assetLaunch.setAttribute('aria-label', 'Assets')
+assetLaunch.title = 'Assets — browse, import and place 3D models'
+hud.el.querySelector('.rail').append(assetLaunch)
+assetLaunch.disabled = true
+import('./assets/tools.js').then(async ({ mountAssetTools }) => {
+  const tools = await mountAssetTools({ engine, rig, hud, colony, launch: assetLaunch })
+  window.botCrossing.assets = tools
+  assetLaunch.disabled = false
+}).catch((error) => {
+  hud.toast('Asset tools could not start. Reload the page to retry.', 'err')
+  console.error(error)
+})
 // The sidebar is permanent, so the card beside an astronaut has a wall to stay clear of.
 const sideWidth = () => (window.innerWidth <= 820 ? 0 : 334)
 hud.setSideWidth(sideWidth())
@@ -442,6 +457,7 @@ engine.canvas.addEventListener('pointerleave', () => {
 // ── keyboard ──────────────────────────────────────────────────────────────────────────
 
 window.addEventListener('keydown', (e) => {
+  if (document.querySelector('.asset-dialog[open]')) return
   // Never steal keys from a field the user is actually typing in.
   const t = e.target
   if (t instanceof HTMLInputElement || t instanceof HTMLSelectElement || t instanceof HTMLTextAreaElement) return

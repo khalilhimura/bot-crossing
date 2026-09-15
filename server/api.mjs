@@ -2,6 +2,8 @@ import fsp from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
 import { spawn } from 'node:child_process'
+import { createAssetStore } from './assets/store.mjs'
+import { createAssetMiddleware } from './assets/api.mjs'
 import { fileURLToPath } from 'node:url'
 import {
   defaultHarness,
@@ -16,6 +18,10 @@ import {
 const here = path.dirname(fileURLToPath(import.meta.url))
 const DATA_DIR = process.env.BOT_CROSSING_DATA || path.join(here, '..', 'data')
 const STATE_FILE = path.join(DATA_DIR, 'colony.json')
+const assetMiddleware = createAssetMiddleware(createAssetStore({
+  directory: path.join(DATA_DIR, 'assets'),
+  catalog: path.join(here, '..', 'public', 'assets', 'catalog.json'),
+}))
 
 const STATE_VERSION = 1
 
@@ -245,6 +251,10 @@ export async function apiMiddleware(req, res, next) {
 
   if (!isLocalRequest(req)) {
     return send(res, 403, { error: 'Bot Crossing only answers its own page on this machine' })
+  }
+
+  if (url.pathname === '/api/assets' || url.pathname.startsWith('/api/assets/')) {
+    return assetMiddleware(req, res)
   }
 
   try {

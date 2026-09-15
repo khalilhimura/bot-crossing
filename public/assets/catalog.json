@@ -1,0 +1,2386 @@
+[
+  {
+    "id": "bundled:base:basemodule_A",
+    "name": "basemodule A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "basemodule_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 586
+    },
+    "bounds": {
+      "min": [
+        -1.1759612560272217,
+        -0.0000018477439880371094,
+        -1
+      ],
+      "max": [
+        1.0722213983535767,
+        0.9999999403953552,
+        1.1759612560272217
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:basemodule_B",
+    "name": "basemodule B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "basemodule_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 620
+    },
+    "bounds": {
+      "min": [
+        -1.0396968126296997,
+        3.725290298461914e-9,
+        -1.1111092567443848
+      ],
+      "max": [
+        1.039696455001831,
+        0.9999999403953552,
+        1.2055556774139404
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:basemodule_C",
+    "name": "basemodule C",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "basemodule_C",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 644
+    },
+    "bounds": {
+      "min": [
+        -1,
+        3.725290298461914e-9,
+        -1
+      ],
+      "max": [
+        1,
+        0.9999999403953552,
+        1.2055556774139404
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:basemodule_D",
+    "name": "basemodule D",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "basemodule_D",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 780
+    },
+    "bounds": {
+      "min": [
+        -1.2222223281860352,
+        3.725290298461914e-9,
+        -1.0722213983535767
+      ],
+      "max": [
+        1.2222223281860352,
+        0.9999999403953552,
+        1.072221279144287
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:basemodule_E",
+    "name": "basemodule E",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "basemodule_E",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 732
+    },
+    "bounds": {
+      "min": [
+        -1.1111092567443848,
+        3.725290298461914e-9,
+        -1.0722172260284424
+      ],
+      "max": [
+        1.1111092567443848,
+        1.6500000953674316,
+        1.2055556774139404
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:basemodule_garage",
+    "name": "basemodule garage",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "basemodule_garage",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 2,
+      "materials": 1,
+      "triangles": 770
+    },
+    "bounds": {
+      "min": [
+        -1,
+        -0.0000018477439880371094,
+        -1.0961776971817017
+      ],
+      "max": [
+        1,
+        0.9999999403953552,
+        1.2777777910232544
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:cargo_A",
+    "name": "cargo A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "cargo_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 128
+    },
+    "bounds": {
+      "min": [
+        -0.25,
+        0,
+        -0.2602500319480896
+      ],
+      "max": [
+        0.25,
+        0.5200009346008301,
+        0.2602499723434448
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:cargo_A_packed",
+    "name": "cargo A packed",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "cargo_A_packed",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 176
+    },
+    "bounds": {
+      "min": [
+        -0.2602500319480896,
+        -0.01025011483579874,
+        -0.2602499723434448
+      ],
+      "max": [
+        0.2602499723434448,
+        0.5200009346008301,
+        0.2602499723434448
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:cargo_A_stacked",
+    "name": "cargo A stacked",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "cargo_A_stacked",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 488
+    },
+    "bounds": {
+      "min": [
+        -0.5102499723434448,
+        -0.01025011483579874,
+        -0.5102499723434448
+      ],
+      "max": [
+        0.5102499723434448,
+        1.0102499723434448,
+        0.5102499723434448
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:cargo_B",
+    "name": "cargo B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "cargo_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 128
+    },
+    "bounds": {
+      "min": [
+        -0.25,
+        0,
+        -0.2602500319480896
+      ],
+      "max": [
+        0.25,
+        0.5200009346008301,
+        0.2602499723434448
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:cargo_B_packed",
+    "name": "cargo B packed",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "cargo_B_packed",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 176
+    },
+    "bounds": {
+      "min": [
+        -0.2602500319480896,
+        -0.01025011483579874,
+        -0.2602499723434448
+      ],
+      "max": [
+        0.2602499723434448,
+        0.5200009346008301,
+        0.2602499723434448
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:cargo_B_stacked",
+    "name": "cargo B stacked",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "cargo_B_stacked",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 488
+    },
+    "bounds": {
+      "min": [
+        -0.5102499723434448,
+        -0.01025011483579874,
+        -0.5102499723434448
+      ],
+      "max": [
+        0.5102499723434448,
+        1.0102499723434448,
+        0.5102499723434448
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:cargodepot_A",
+    "name": "cargodepot A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "cargodepot_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 924
+    },
+    "bounds": {
+      "min": [
+        -1.072221279144287,
+        -7.450580596923828e-8,
+        -1.0722172260284424
+      ],
+      "max": [
+        1.0000001192092896,
+        1.120007038116455,
+        1.0102499723434448
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:cargodepot_B",
+    "name": "cargodepot B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "cargodepot_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 966
+    },
+    "bounds": {
+      "min": [
+        -1.072312831878662,
+        3.725290298461914e-9,
+        -1.105652093887329
+      ],
+      "max": [
+        1.0102499723434448,
+        1.02000093460083,
+        1.0722172260284424
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:cargodepot_C",
+    "name": "cargodepot C",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "cargodepot_C",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 1310
+    },
+    "bounds": {
+      "min": [
+        -1.063441514968872,
+        -0.0000015273690223693848,
+        -1
+      ],
+      "max": [
+        1.0102499723434448,
+        1.0209099054336548,
+        1.0950868129730225
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:containers_A",
+    "name": "containers A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "containers_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 280
+    },
+    "bounds": {
+      "min": [
+        -0.2499999850988388,
+        -0.0019850539974868298,
+        -0.25
+      ],
+      "max": [
+        0.25,
+        0.19801495969295502,
+        0.25
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:containers_B",
+    "name": "containers B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "containers_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 280
+    },
+    "bounds": {
+      "min": [
+        -0.2499999850988388,
+        -0.0019850539974868298,
+        -0.25
+      ],
+      "max": [
+        0.25,
+        0.19801495969295502,
+        0.25
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:containers_C",
+    "name": "containers C",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "containers_C",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 280
+    },
+    "bounds": {
+      "min": [
+        -0.2499999850988388,
+        -0.0019850539974868298,
+        -0.25
+      ],
+      "max": [
+        0.25,
+        0.19801495969295502,
+        0.25
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:containers_D",
+    "name": "containers D",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "containers_D",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 280
+    },
+    "bounds": {
+      "min": [
+        -0.2499999850988388,
+        -0.0019850539974868298,
+        -0.25
+      ],
+      "max": [
+        0.25,
+        0.19801495969295502,
+        0.25
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:drill_structure",
+    "name": "drill structure",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "drill_structure",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 2,
+      "materials": 1,
+      "triangles": 1198
+    },
+    "bounds": {
+      "min": [
+        -0.8750634789466858,
+        0,
+        -0.8750633597373962
+      ],
+      "max": [
+        0.8750634789466858,
+        1.999995470046997,
+        0.8750634789466858
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:lander_A",
+    "name": "lander A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "lander_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 1464
+    },
+    "bounds": {
+      "min": [
+        -0.6717513799667358,
+        -0.000003039836883544922,
+        -0.6717513799667358
+      ],
+      "max": [
+        0.7000023126602173,
+        1.1921340227127075,
+        0.75
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:lander_B",
+    "name": "lander B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "lander_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 1208
+    },
+    "bounds": {
+      "min": [
+        -0.6717513799667358,
+        -0.000003039836883544922,
+        -0.6717513799667358
+      ],
+      "max": [
+        0.7000023126602173,
+        1.0951416492462158,
+        0.75
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:lander_base",
+    "name": "lander base",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "lander_base",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 638
+    },
+    "bounds": {
+      "min": [
+        -0.6717513799667358,
+        -0.000003039836883544922,
+        -0.6717513799667358
+      ],
+      "max": [
+        0.6717515587806702,
+        0.49999845027923584,
+        0.6717516183853149
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:landingpad_large",
+    "name": "landingpad large",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "landingpad_large",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 478
+    },
+    "bounds": {
+      "min": [
+        -1.250000238418579,
+        -0.000003039836883544922,
+        -1.250000238418579
+      ],
+      "max": [
+        1.25,
+        0.49999991059303284,
+        1.2500003576278687
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:landingpad_small",
+    "name": "landingpad small",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "landingpad_small",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 454
+    },
+    "bounds": {
+      "min": [
+        -0.9500002264976501,
+        -0.000003039836883544922,
+        -0.9500002264976501
+      ],
+      "max": [
+        0.9500000476837158,
+        0.49999991059303284,
+        0.9500003457069397
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:lights",
+    "name": "lights",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "lights",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 356
+    },
+    "bounds": {
+      "min": [
+        -0.33999553322792053,
+        -0.0000012838389693570207,
+        -0.33998996019363403
+      ],
+      "max": [
+        0.33999547362327576,
+        0.9983767867088318,
+        0.33998996019363403
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:rock_A",
+    "name": "rock A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "rock_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 30
+    },
+    "bounds": {
+      "min": [
+        -0.21650636196136475,
+        0,
+        -0.25
+      ],
+      "max": [
+        0.31650635600090027,
+        0.25,
+        0.25
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:rock_B",
+    "name": "rock B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "rock_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 36
+    },
+    "bounds": {
+      "min": [
+        -0.3476196825504303,
+        0,
+        -0.40139660239219666
+      ],
+      "max": [
+        0.3476196825504303,
+        0.40139660239219666,
+        0.40139660239219666
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:rocks_A",
+    "name": "rocks A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "rocks_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 88
+    },
+    "bounds": {
+      "min": [
+        -0.790186882019043,
+        0,
+        -0.8217347264289856
+      ],
+      "max": [
+        0.5239181518554688,
+        0.35398349165916443,
+        0.8210803270339966
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:rocks_B",
+    "name": "rocks B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "rocks_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 160
+    },
+    "bounds": {
+      "min": [
+        -0.9496017694473267,
+        -0.000012698579666903242,
+        -0.8758621215820312
+      ],
+      "max": [
+        0.9314445853233337,
+        1.067021131515503,
+        0.8625953793525696
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:roofmodule_base",
+    "name": "roofmodule base",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "roofmodule_base",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 48
+    },
+    "bounds": {
+      "min": [
+        -0.6976174116134644,
+        -0.10000007599592209,
+        -0.6976184844970703
+      ],
+      "max": [
+        0.69761723279953,
+        0.09999990463256836,
+        0.6976184844970703
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:roofmodule_cargo_A",
+    "name": "roofmodule cargo A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "roofmodule_cargo_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 784
+    },
+    "bounds": {
+      "min": [
+        -0.6976174116134644,
+        -0.10000007599592209,
+        -0.6976184844970703
+      ],
+      "max": [
+        0.69761723279953,
+        0.6199994087219238,
+        0.6976184844970703
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:roofmodule_cargo_B",
+    "name": "roofmodule cargo B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "roofmodule_cargo_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 760
+    },
+    "bounds": {
+      "min": [
+        -0.6976174116134644,
+        -0.10000007599592209,
+        -0.6976184844970703
+      ],
+      "max": [
+        0.69761723279953,
+        1.1199994087219238,
+        0.6976184844970703
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:roofmodule_cargo_C",
+    "name": "roofmodule cargo C",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "roofmodule_cargo_C",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 1158
+    },
+    "bounds": {
+      "min": [
+        -0.6976174116134644,
+        -0.10000007599592209,
+        -0.6976184844970703
+      ],
+      "max": [
+        0.69761723279953,
+        1.1199994087219238,
+        0.6976184844970703
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:roofmodule_solarpanels",
+    "name": "roofmodule solarpanels",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "roofmodule_solarpanels",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 284
+    },
+    "bounds": {
+      "min": [
+        -0.6976174116134644,
+        -0.10000007599592209,
+        -0.6976184844970703
+      ],
+      "max": [
+        0.69761723279953,
+        0.4709068536758423,
+        0.6976184844970703
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:solarpanel",
+    "name": "solarpanel",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "solarpanel",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 118
+    },
+    "bounds": {
+      "min": [
+        -0.44999998807907104,
+        -0.0000027492642402648926,
+        -0.22500136494636536
+      ],
+      "max": [
+        0.44999998807907104,
+        0.3709160387516022,
+        0.2249986231327057
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:spacetruck",
+    "name": "spacetruck",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "spacetruck",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 5,
+      "materials": 1,
+      "triangles": 1118
+    },
+    "bounds": {
+      "min": [
+        -0.24474935233592987,
+        -0.07789527624845505,
+        -0.4455355405807495
+      ],
+      "max": [
+        0.24474935233592987,
+        0.48830467462539673,
+        0.44779160618782043
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:spacetruck_large",
+    "name": "spacetruck large",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "spacetruck_large",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 5,
+      "materials": 1,
+      "triangles": 1434
+    },
+    "bounds": {
+      "min": [
+        -0.2522824555635452,
+        -0.13354897499084473,
+        -0.5717926621437073
+      ],
+      "max": [
+        0.2522824555635452,
+        0.5519228577613831,
+        0.45593589544296265
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:spacetruck_trailer",
+    "name": "spacetruck trailer",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "spacetruck_trailer",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 5,
+      "materials": 1,
+      "triangles": 824
+    },
+    "bounds": {
+      "min": [
+        -0.24000011384487152,
+        -0.1431208774447441,
+        -0.4999999403953552
+      ],
+      "max": [
+        0.23999999463558197,
+        0.19507910311222076,
+        0.5
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:structure_low",
+    "name": "structure low",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "structure_low",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 422
+    },
+    "bounds": {
+      "min": [
+        -0.8750634789466858,
+        0,
+        -0.8750633597373962
+      ],
+      "max": [
+        0.8750634789466858,
+        1,
+        0.8750634789466858
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:structure_tall",
+    "name": "structure tall",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "structure_tall",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 670
+    },
+    "bounds": {
+      "min": [
+        -0.8750634789466858,
+        0,
+        -0.8750633597373962
+      ],
+      "max": [
+        0.8750634789466858,
+        1.999995470046997,
+        0.8750634789466858
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:terrain_low",
+    "name": "terrain low",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "terrain_low",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 12
+    },
+    "bounds": {
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        0,
+        1
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:terrain_low_curved",
+    "name": "terrain low curved",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "terrain_low_curved",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 36
+    },
+    "bounds": {
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        0,
+        1
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:terrain_mining",
+    "name": "terrain mining",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "terrain_mining",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 76
+    },
+    "bounds": {
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1.07252836227417,
+        1
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:terrain_slope",
+    "name": "terrain slope",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "terrain_slope",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 28
+    },
+    "bounds": {
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:terrain_slope_inner_corner",
+    "name": "terrain slope inner corner",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "terrain_slope_inner_corner",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 34
+    },
+    "bounds": {
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:terrain_slope_outer_corner",
+    "name": "terrain slope outer corner",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "terrain_slope_outer_corner",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 34
+    },
+    "bounds": {
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:terrain_tall",
+    "name": "terrain tall",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "terrain_tall",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 12
+    },
+    "bounds": {
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:terrain_tall_curved",
+    "name": "terrain tall curved",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "terrain_tall_curved",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 36
+    },
+    "bounds": {
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:tunnel_diagonal_long_A",
+    "name": "tunnel diagonal long A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "tunnel_diagonal_long_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 608
+    },
+    "bounds": {
+      "min": [
+        -1.469518780708313,
+        0.20000000298023224,
+        -1.4695188999176025
+      ],
+      "max": [
+        1.469518780708313,
+        0.7999999523162842,
+        1.469518780708313
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:tunnel_diagonal_long_B",
+    "name": "tunnel diagonal long B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "tunnel_diagonal_long_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 284
+    },
+    "bounds": {
+      "min": [
+        -1.469518780708313,
+        0.20000000298023224,
+        -1.4695188999176025
+      ],
+      "max": [
+        1.469518780708313,
+        0.7999999523162842,
+        1.469518780708313
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:tunnel_diagonal_short_A",
+    "name": "tunnel diagonal short A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "tunnel_diagonal_short_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 188
+    },
+    "bounds": {
+      "min": [
+        -0.46951884031295776,
+        0.20000000298023224,
+        -0.46951889991760254
+      ],
+      "max": [
+        0.46951889991760254,
+        0.7999999523162842,
+        0.46951884031295776
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:tunnel_diagonal_short_B",
+    "name": "tunnel diagonal short B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "tunnel_diagonal_short_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 188
+    },
+    "bounds": {
+      "min": [
+        -0.46951884031295776,
+        0.20000000298023224,
+        -0.46951889991760254
+      ],
+      "max": [
+        0.46951889991760254,
+        0.7999999523162842,
+        0.46951884031295776
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:tunnel_straight_A",
+    "name": "tunnel straight A",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "tunnel_straight_A",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 608
+    },
+    "bounds": {
+      "min": [
+        -1,
+        0.20000000298023224,
+        -0.4650000333786011
+      ],
+      "max": [
+        1,
+        0.7999999523162842,
+        0.4650000333786011
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:tunnel_straight_B",
+    "name": "tunnel straight B",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "tunnel_straight_B",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 284
+    },
+    "bounds": {
+      "min": [
+        -1,
+        0.20000000298023224,
+        -0.3999999761581421
+      ],
+      "max": [
+        1,
+        0.7999999523162842,
+        0.3999999761581421
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:windturbine_low",
+    "name": "windturbine low",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "windturbine_low",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 2,
+      "materials": 1,
+      "triangles": 826
+    },
+    "bounds": {
+      "min": [
+        -0.5717513561248779,
+        0,
+        -0.6452035307884216
+      ],
+      "max": [
+        0.5717515349388123,
+        1.4649766087532043,
+        0.6452035307884216
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:base:windturbine_tall",
+    "name": "windturbine tall",
+    "category": "Buildings",
+    "origin": "bundled",
+    "url": "/assets/spacebase.glb",
+    "selector": "windturbine_tall",
+    "hash": "7119c99d625876ec49c0c3126b3e96f00c025e1606035203a3e7f38f7813c388",
+    "bytes": 1503844,
+    "source": "https://kaylousberg.itch.io/space-base-bits",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 2,
+      "materials": 1,
+      "triangles": 632
+    },
+    "bounds": {
+      "min": [
+        -0.8326148986816406,
+        -0.0000025676779387140414,
+        -0.5546435713768005
+      ],
+      "max": [
+        0.8326230645179749,
+        2.9999879598617554,
+        0.4452035427093506
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Bush_1_E_Color1",
+    "name": "Bush 1 E Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Bush_1_E_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 552
+    },
+    "bounds": {
+      "min": [
+        -0.8318043351173401,
+        -0.012356013059616089,
+        -0.6059057116508484
+      ],
+      "max": [
+        0.7433373928070068,
+        0.7960658073425293,
+        0.7106500864028931
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Bush_3_B_Color1",
+    "name": "Bush 3 B Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Bush_3_B_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 240
+    },
+    "bounds": {
+      "min": [
+        -0.8416680693626404,
+        -0.026114314794540405,
+        -0.8416680097579956
+      ],
+      "max": [
+        0.8416680097579956,
+        0.7774202227592468,
+        0.8416680693626404
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Grass_2_D_Color1",
+    "name": "Grass 2 D Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Grass_2_D_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 528
+    },
+    "bounds": {
+      "min": [
+        -0.5727711319923401,
+        -0.04773612692952156,
+        -0.7120615839958191
+      ],
+      "max": [
+        0.5317271947860718,
+        0.8874897360801697,
+        0.6543588042259216
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Rock_1_D_Color1",
+    "name": "Rock 1 D Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Rock_1_D_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 84
+    },
+    "bounds": {
+      "min": [
+        -0.38679447770118713,
+        0,
+        -0.6247491836547852
+      ],
+      "max": [
+        0.5402669906616211,
+        1.129973292350769,
+        0.5318676829338074
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Rock_1_J_Color1",
+    "name": "Rock 1 J Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Rock_1_J_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 521
+    },
+    "bounds": {
+      "min": [
+        -2.2254891395568848,
+        0,
+        -1.717100739479065
+      ],
+      "max": [
+        1.1653916835784912,
+        3.3557422161102295,
+        2.0399296283721924
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Rock_2_C_Color1",
+    "name": "Rock 2 C Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Rock_2_C_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 108
+    },
+    "bounds": {
+      "min": [
+        -0.6476109027862549,
+        0.00004047247057314962,
+        -0.6476311087608337
+      ],
+      "max": [
+        0.6476513743400574,
+        1.326242446899414,
+        0.6476311087608337
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Rock_2_G_Color1",
+    "name": "Rock 2 G Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Rock_2_G_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 488
+    },
+    "bounds": {
+      "min": [
+        -1.342759370803833,
+        0.000008223018994613085,
+        -1.9087142944335938
+      ],
+      "max": [
+        1.7504074573516846,
+        3.1958234310150146,
+        1.8200292587280273
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Rock_3_E_Color1",
+    "name": "Rock 3 E Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Rock_3_E_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 84
+    },
+    "bounds": {
+      "min": [
+        -0.5564267039299011,
+        -0.5915006995201111,
+        -0.5834609866142273
+      ],
+      "max": [
+        0.5888480544090271,
+        0.696137011051178,
+        0.5976832509040833
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Rock_3_L_Color1",
+    "name": "Rock 3 L Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Rock_3_L_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 168
+    },
+    "bounds": {
+      "min": [
+        -1.456648588180542,
+        -1.0459975004196167,
+        -1.3684536218643188
+      ],
+      "max": [
+        1.1612157821655273,
+        1.2216897010803223,
+        1.1907730102539062
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Rock_3_Q_Color1",
+    "name": "Rock 3 Q Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Rock_3_Q_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 320
+    },
+    "bounds": {
+      "min": [
+        -1.9955413341522217,
+        -1.6244807243347168,
+        -2.1585400104522705
+      ],
+      "max": [
+        2.6549041271209717,
+        2.092097759246826,
+        2.319676399230957
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Tree_1_A_Color1",
+    "name": "Tree 1 A Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Tree_1_A_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 530
+    },
+    "bounds": {
+      "min": [
+        -1.9345909357070923,
+        -0.26131799817085266,
+        -1.6255630254745483
+      ],
+      "max": [
+        1.2464021444320679,
+        3.899381160736084,
+        1.6255637407302856
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Tree_1_C_Color1",
+    "name": "Tree 1 C Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Tree_1_C_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 1364
+    },
+    "bounds": {
+      "min": [
+        -2.745804786682129,
+        -0.3923197388648987,
+        -2.8766753673553467
+      ],
+      "max": [
+        3.945490837097168,
+        7.42193078994751,
+        2.8766770362854004
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Tree_3_A_Color1",
+    "name": "Tree 3 A Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Tree_3_A_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 978
+    },
+    "bounds": {
+      "min": [
+        -1.552119255065918,
+        -0.26131799817085266,
+        -1.5465991497039795
+      ],
+      "max": [
+        1.5410791635513306,
+        3.245279550552368,
+        1.5465989112854004
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Tree_3_C_Color1",
+    "name": "Tree 3 C Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Tree_3_C_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 2228
+    },
+    "bounds": {
+      "min": [
+        -3.238947868347168,
+        -0.3923197388648987,
+        -1.8776136636734009
+      ],
+      "max": [
+        2.393292188644409,
+        5.399654388427734,
+        2.747124195098877
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Tree_4_A_Color1",
+    "name": "Tree 4 A Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Tree_4_A_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 404
+    },
+    "bounds": {
+      "min": [
+        -0.9600079655647278,
+        -0.34212493896484375,
+        -1.0196812152862549
+      ],
+      "max": [
+        1.0473434925079346,
+        4.932270050048828,
+        0.9846721291542053
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:forest:Tree_4_C_Color1",
+    "name": "Tree 4 C Color1",
+    "category": "Nature",
+    "origin": "bundled",
+    "url": "/assets/forest.glb",
+    "selector": "Tree_4_C_Color1",
+    "hash": "8d7dfa511015e66d454c271efda29174981957220d63fc88ec0fabec5cdd224d",
+    "bytes": 396480,
+    "source": "https://kaylousberg.itch.io/kaykit-forest",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [],
+    "stats": {
+      "meshes": 1,
+      "materials": 1,
+      "triangles": 982
+    },
+    "bounds": {
+      "min": [
+        -1.7309060096740723,
+        -0.3565221428871155,
+        -1.5473430156707764
+      ],
+      "max": [
+        2.004253625869751,
+        10.417509078979492,
+        1.3217493295669556
+      ]
+    },
+    "status": "ready"
+  },
+  {
+    "id": "bundled:crew",
+    "name": "KayKit Crew",
+    "category": "Characters",
+    "origin": "bundled",
+    "url": "/assets/crew.glb",
+    "selector": null,
+    "hash": "a4a9bbdb91f5a028e059d935d197de77b08eafc958832302f0cb414f99349ac6",
+    "bytes": 2098540,
+    "source": "https://kaylousberg.itch.io/kaykit-character-animations",
+    "creator": "Kay Lousberg",
+    "license": "CC0 1.0",
+    "animations": [
+      "Hit_A",
+      "Idle_A",
+      "Idle_B",
+      "Interact",
+      "Spawn_Ground",
+      "Jump_Full_Short",
+      "Running_A",
+      "Walking_A",
+      "Cheering",
+      "Sit_Floor_Down",
+      "Sit_Floor_Idle",
+      "Sit_Floor_StandUp",
+      "Waving",
+      "Hammering",
+      "Working_A"
+    ],
+    "stats": {
+      "meshes": 6,
+      "materials": 1,
+      "triangles": 6916
+    },
+    "bounds": {
+      "min": [
+        -0.9892379641532898,
+        -0.00002652787406987045,
+        -0.469743013381958
+      ],
+      "max": [
+        0.9892379641532898,
+        2.2036774158477783,
+        0.5358706712722778
+      ]
+    },
+    "status": "ready"
+  }
+]

@@ -1,4 +1,5 @@
 import * as THREE from 'three'
+import { bundleURL } from '../assets/bundles.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import * as BufferGeometryUtils from 'three/addons/utils/BufferGeometryUtils.js'
 
@@ -63,7 +64,7 @@ const CLIP = {
   interact: { name: 'Interact', loop: true },
 }
 
-const CREW_URL = `${import.meta.env.BASE_URL}assets/crew.glb`
+const CREW_URL = bundleURL('crew')
 
 /**
  * The mannequin's own head is left out of the body: the colony puts its own helmet, visor

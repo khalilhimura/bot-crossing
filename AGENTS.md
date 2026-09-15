@@ -45,5 +45,5 @@ does not identify the original author's repository in this checkout.
 - Start graph implementation by defining the minimum graph model and a concrete
   exploration workflow with the user; do not invent a full product specification.
 - Use `npm run dev` for local development and `npm run build` for build validation.
-  There is no configured test script in the current package manifest.
+  Run `npm test` for the asset registry, catalog, placement, and camera tests.
 - Never commit local agent session data or ignored `data/colony.json` state.
