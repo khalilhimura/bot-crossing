@@ -29,10 +29,12 @@ Use the 3D scene to make context and relationships explorable. The renderer, cam
 selection interactions, and stable spatial layout are the starting point for that work.
 Multi-harness session monitoring is the inherited baseline, not the future product focus.
 
-Before implementation, define the graph's entities, relationships, data sources,
-and navigation needs. Then determine how they map to the 3D scene and which colony
-metaphors remain useful. No graph schema, storage backend, or integration has been
-selected yet. See [AGENTS.md](AGENTS.md) for guidance for future changes.
+The approved MVP direction and local integration contract are captured in
+[design decisions](docs/nous-mvp-design-decisions.md). The standalone
+[SovMem mock CLI](mock-sovmem/README.md) uses OKF v0.2 synthetic documents to exercise
+human-reviewed claims, contradictory evidence, mission persistence and provenance.
+Run `npm run mock:demo` for the end-to-end pilot. The 3D context graph integration
+and production SovMem backend remain future work.
 
 ## Running the preserved session monitor
 

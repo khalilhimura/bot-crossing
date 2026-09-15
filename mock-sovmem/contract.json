@@ -1,0 +1,225 @@
+{
+  "version": "sovmem-mock/v1",
+  "demo": true,
+  "authority": "simulated",
+  "okf": {
+    "version": "0.2",
+    "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f"
+  },
+  "request": {
+    "version": "sovmem-mock/v1",
+    "method": "method name",
+    "params": {}
+  },
+  "success": {
+    "version": "sovmem-mock/v1",
+    "demo": true,
+    "ok": true,
+    "result": {}
+  },
+  "failure": {
+    "version": "sovmem-mock/v1",
+    "demo": true,
+    "ok": false,
+    "error": {
+      "code": "typed.code",
+      "message": "description"
+    }
+  },
+  "methods": {
+    "init": {
+      "required": [],
+      "optional": [],
+      "role": "owner"
+    },
+    "memory_status": {
+      "required": [],
+      "optional": [
+        "proposal_id"
+      ],
+      "role": "agent"
+    },
+    "memory_search": {
+      "required": [],
+      "optional": [
+        "query",
+        "kind",
+        "scope",
+        "generation",
+        "as_of",
+        "limit",
+        "cursor"
+      ],
+      "role": "agent"
+    },
+    "memory_get": {
+      "required": [
+        "id"
+      ],
+      "optional": [
+        "revision",
+        "generation",
+        "scope",
+        "as_of"
+      ],
+      "role": "agent"
+    },
+    "memory_trace": {
+      "required": [],
+      "optional": [
+        "id",
+        "mission_id",
+        "revision",
+        "generation",
+        "scope",
+        "as_of",
+        "depth",
+        "limit",
+        "cursor"
+      ],
+      "role": "agent"
+    },
+    "memory_context": {
+      "required": [
+        "id"
+      ],
+      "optional": [
+        "revision",
+        "generation",
+        "scope",
+        "as_of",
+        "budget",
+        "evidence"
+      ],
+      "role": "agent"
+    },
+    "memory_propose": {
+      "required": [
+        "idempotency_key",
+        "packet_id",
+        "base_generation",
+        "candidate"
+      ],
+      "optional": [],
+      "role": "agent"
+    },
+    "proposal_get": {
+      "required": [
+        "proposal_id"
+      ],
+      "optional": [],
+      "role": "agent"
+    },
+    "proposal_list": {
+      "required": [],
+      "optional": [
+        "state"
+      ],
+      "role": "agent"
+    },
+    "proposal_revise": {
+      "required": [
+        "proposal_id",
+        "revision_hash",
+        "body"
+      ],
+      "optional": [],
+      "role": "agent"
+    },
+    "review": {
+      "required": [
+        "proposal_id",
+        "revision_hash",
+        "action"
+      ],
+      "optional": [
+        "reason"
+      ],
+      "role": "owner"
+    },
+    "scenario": {
+      "required": [
+        "name"
+      ],
+      "optional": [],
+      "role": "owner"
+    },
+    "topic_save": {
+      "required": [
+        "id",
+        "title",
+        "claims"
+      ],
+      "optional": [],
+      "role": "agent"
+    },
+    "topic_list": {
+      "required": [],
+      "optional": [],
+      "role": "agent"
+    },
+    "mission_save": {
+      "required": [
+        "id",
+        "question",
+        "packet_id"
+      ],
+      "optional": [
+        "conversation",
+        "draft",
+        "state"
+      ],
+      "role": "agent"
+    },
+    "mission_get": {
+      "required": [
+        "id"
+      ],
+      "optional": [],
+      "role": "agent"
+    },
+    "mission_list": {
+      "required": [],
+      "optional": [],
+      "role": "agent"
+    },
+    "mission_dispatch": {
+      "required": [
+        "id",
+        "packet_id",
+        "provider",
+        "model",
+        "adapter_version"
+      ],
+      "optional": [
+        "at"
+      ],
+      "role": "agent"
+    },
+    "validate": {
+      "required": [
+        "bundle"
+      ],
+      "optional": [],
+      "role": "owner"
+    },
+    "export": {
+      "required": [
+        "output"
+      ],
+      "optional": [
+        "scope",
+        "generation",
+        "as_of",
+        "archival"
+      ],
+      "role": "owner"
+    }
+  },
+  "notes": [
+    "This is a capability inventory, not JSON Schema or a ratified SovMem protocol.",
+    "memory_trace requires exactly one of id or mission_id.",
+    "review requires reason for accept/reject; KIV stays pending.",
+    "All role selection and verdicts are synthetic test controls."
+  ]
+}
